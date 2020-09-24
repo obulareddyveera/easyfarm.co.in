@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/qltuippj/public_html/
+    - export DEPLOYPATH=/home/qltuippj/home.easyfarm.co.in
     - /bin/rm -Rf $DEPLOYPATH
     - /bin/mkdir $DEPLOYPATH
     - /bin/cp -R build/* $DEPLOYPATH
